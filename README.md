@@ -40,7 +40,7 @@ flask db upgrade
 flask db downgrade
 
 # run database seeder, this will setup default admin credentials for our backend
-python seed run
+flask seed run
 ```
 
 **Running Application**
